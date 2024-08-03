@@ -1,0 +1,47 @@
+.nav-bar {
+  background-image: linear-gradient(rgb(112, 230, 220), #7bc1b8);
+  overflow: hidden;
+    text-align: center;
+  }
+  .nav-bar h3{
+    font-family:'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 2em;
+    color: aliceblue;
+    text-align: center;
+  }
+  /* Style the list inside the navigation bar */
+  .nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style each list item */
+  .nav-bar li {
+    font-size: larger;
+    text-align: center;
+  }
+  
+  /* Style the links inside the list items */
+  .nav-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .nav-bar li a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add active class styling if you want to highlight the current page */
+  .nav-bar li a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
